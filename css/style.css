@@ -20,7 +20,7 @@
 }
 
 body {
-    font-family: cursive;
+    font-family: sans-serif;
 }
 
 .back-to-top {
@@ -71,6 +71,18 @@ body {
     border-radius: 2px;
 }
 
+#gallery-btn {
+    border-radius: 6px;
+    padding: 10px;
+    background-color:rgb(246, 238, 0);
+}
+
+#home-btn {
+    position: absolute;
+    left: 2em;
+    padding: 5px;
+    display: inline-block;
+}
 
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
